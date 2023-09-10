@@ -1,0 +1,7 @@
+input/**
+data/**
+output/**
+samples/
+.idea/
+.vscode/
+.pytest_cache/

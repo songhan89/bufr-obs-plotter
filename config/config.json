@@ -1,0 +1,547 @@
+{
+  "UPPERAIR_ASEAN_WINDS_00": {
+      "product_name": "Radiosonde Upper Air Observation",
+      "data_type": "TEMP_BUFR",
+      "img_format": "png",
+      "output_fname": "lwind00asn_%Y%m%d_%H%M",
+      "gaussian_smooth": false,
+      "gaussian_sigma": 1.5,
+      "dpi": 300,
+      "width_px": 2400,
+      "height_px": 2400,
+      "layout": [2, 4],
+      "margins_x": 0.05,
+      "margins_y": 0.1,
+      "plot_ticks": true,
+      "lon_spacing": 10,
+      "lat_spacing": 10,
+      "ticks_style": {
+        "labelsize": 3
+      },
+      "extent": [[[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]], 
+                 [[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]]
+      ],
+      "projection": [["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"], 
+                     ["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"]
+      ],
+      "variable": [["winds", "winds", "winds", "winds"],
+                   ["winds", "winds", "winds", "winds"]
+      ],
+      "typicalTime": [["000000", "000000", "000000", "000000"],
+                  ["000000", "000000", "000000", "000000"]    
+      ],
+      "lvl_val": [[80000, 70000, 60000, 50000],
+                  [95000, 92500, 90000, 85000]    
+      ],
+      "label_text": [["7000 ft", "10000 ft", "14000 ft", "19000 ft"],
+                     ["1000 ft", "2000 ft", "3000 ft", "5000 ft"]
+      ],
+      "label_style": {
+        "fontsize": 5,
+        "loc": "center"
+      },
+      "title_style": {
+        "fontsize": 10
+      },
+      "plot_style": [["barb", "barb", "barb", "barb"],
+                     ["barb", "barb", "barb", "barb"]
+      ],
+      "scale_factor": 1.94384, 
+      "mpl_style": {
+        "colors": "black",
+        "vmin": 980,
+        "vmax": 1030,
+        "levels": 26,
+        "linewidths": 0.5
+      },
+      "contour_style": {
+        "fontsize": 3, 
+        "inline": "True", 
+        "inline_spacing": 3, 
+        "fmt": "%i",
+        "rightside_up": "True",
+        "use_clabeltext": "True"
+      },
+      "coastline_style": {
+        "resolution": "10m", 
+        "color": "black", 
+        "linewidth": 0.3
+      },
+      "border_style": {
+        "edgecolor": "black", 
+        "linewidth": 0.1
+      },
+      "high_text_style": {
+        "extrema": "max",
+        "nsize": 100, 
+        "symbol": "H", 
+        "color": "b"
+      },
+      "low_text_style": {
+        "extrema": "min",
+        "nsize": 100, 
+        "symbol": "L", 
+        "color": "r"
+      },
+      "annotation": {
+          "text": "Produced by Meteorological Service Singapore",
+          "xy": [-0.5, -0.2], 
+          "xycoords": "axes fraction", 
+          "fontsize": 5
+      },
+      "barb_style": {
+        "length": 4,
+        "pivot": "middle",
+        "barbcolor": "blue",
+        "sizes": {
+          "emptybarb": 0.25, 
+          "spacing": 0.2,
+          "height": 0.5 
+        },
+        "linewidth": 0.8
+      },
+      "subplots_adjust": {
+        "bottom": 0.55, 
+        "top": 0.9, 
+        "left": 0.15,
+        "right": 0.85,
+        "wspace": 0.05,
+        "hspace": 0.3
+      }
+  },
+  "UPPERAIR_ASEAN_WINDS_06": {
+    "product_name": "Radiosonde Upper Air Observation",
+    "data_type": "TEMP_BUFR",
+    "img_format": "png",
+    "output_fname": "lwind06asn_%Y%m%d_%H%M",
+    "gaussian_smooth": false,
+    "gaussian_sigma": 1.5,
+    "dpi": 300,
+    "width_px": 2400,
+    "height_px": 2400,
+    "layout": [2, 4],
+    "margins_x": 0.05,
+    "margins_y": 0.1,
+    "plot_ticks": true,
+    "lon_spacing": 10,
+    "lat_spacing": 10,
+    "ticks_style": {
+      "labelsize": 3
+    },
+    "extent": [[[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]], 
+               [[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]]
+    ],
+    "projection": [["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"], 
+                   ["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"]
+    ],
+    "variable": [["winds", "winds", "winds", "winds"],
+                 ["winds", "winds", "winds", "winds"]
+    ],
+    "typicalTime": [["060000", "060000", "060000", "060000"],
+                ["060000", "060000", "060000", "060000"]    
+    ],
+    "lvl_val": [[80000, 70000, 60000, 50000],
+                [95000, 92500, 90000, 85000]    
+    ],
+    "label_text": [["7000 ft", "10000 ft", "14000 ft", "19000 ft"],
+                   ["1000 ft", "2000 ft", "3000 ft", "5000 ft"]
+    ],
+    "label_style": {
+      "fontsize": 5,
+      "loc": "center"
+    },
+    "title_style": {
+      "fontsize": 10
+    },
+    "plot_style": [["barb", "barb", "barb", "barb"],
+                   ["barb", "barb", "barb", "barb"]
+    ],
+    "scale_factor": 1.94384, 
+    "mpl_style": {
+      "colors": "black",
+      "vmin": 980,
+      "vmax": 1030,
+      "levels": 26,
+      "linewidths": 0.5
+    },
+    "contour_style": {
+      "fontsize": 3, 
+      "inline": "True", 
+      "inline_spacing": 3, 
+      "fmt": "%i",
+      "rightside_up": "True",
+      "use_clabeltext": "True"
+    },
+    "coastline_style": {
+      "resolution": "10m", 
+      "color": "black", 
+      "linewidth": 0.3
+    },
+    "border_style": {
+      "edgecolor": "black", 
+      "linewidth": 0.1
+    },
+    "high_text_style": {
+      "extrema": "max",
+      "nsize": 100, 
+      "symbol": "H", 
+      "color": "b"
+    },
+    "low_text_style": {
+      "extrema": "min",
+      "nsize": 100, 
+      "symbol": "L", 
+      "color": "r"
+    },
+    "annotation": {
+        "text": "Produced by Meteorological Service Singapore",
+        "xy": [-0.5, -0.2], 
+        "xycoords": "axes fraction", 
+        "fontsize": 5
+    },
+    "barb_style": {
+      "length": 4,
+      "pivot": "middle",
+      "barbcolor": "blue",
+      "sizes": {
+        "emptybarb": 0.25, 
+        "spacing": 0.2,
+        "height": 0.5 
+      },
+      "linewidth": 0.8
+    },
+    "subplots_adjust": {
+      "bottom": 0.55, 
+      "top": 0.9, 
+      "left": 0.15,
+      "right": 0.85,
+      "wspace": 0.05,
+      "hspace": 0.3
+    }
+  },
+  "UPPERAIR_ASEAN_WINDS_12": {
+    "product_name": "Radiosonde Upper Air Observation",
+    "data_type": "TEMP_BUFR",
+    "img_format": "png",
+    "output_fname": "lwind12asn_%Y%m%d_%H%M",
+    "gaussian_smooth": false,
+    "gaussian_sigma": 1.5,
+    "dpi": 300,
+    "width_px": 2400,
+    "height_px": 2400,
+    "layout": [2, 4],
+    "margins_x": 0.05,
+    "margins_y": 0.1,
+    "plot_ticks": true,
+    "lon_spacing": 10,
+    "lat_spacing": 10,
+    "ticks_style": {
+      "labelsize": 3
+    },
+    "extent": [[[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]], 
+               [[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]]
+    ],
+    "projection": [["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"], 
+                   ["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"]
+    ],
+    "variable": [["winds", "winds", "winds", "winds"],
+                 ["winds", "winds", "winds", "winds"]
+    ],
+    "typicalTime": [["120000", "120000", "120000", "120000"],
+                ["120000", "120000", "120000", "120000"]    
+    ],
+    "lvl_val": [[80000, 70000, 60000, 50000],
+                [95000, 92500, 90000, 85000]    
+    ],
+    "label_text": [["7000 ft", "10000 ft", "14000 ft", "19000 ft"],
+                   ["1000 ft", "2000 ft", "3000 ft", "5000 ft"]
+    ],
+    "label_style": {
+      "fontsize": 5,
+      "loc": "center"
+    },
+    "title_style": {
+      "fontsize": 10
+    },
+    "plot_style": [["barb", "barb", "barb", "barb"],
+                   ["barb", "barb", "barb", "barb"]
+    ],
+    "scale_factor": 1.94384, 
+    "mpl_style": {
+      "colors": "black",
+      "vmin": 980,
+      "vmax": 1030,
+      "levels": 26,
+      "linewidths": 0.5
+    },
+    "contour_style": {
+      "fontsize": 3, 
+      "inline": "True", 
+      "inline_spacing": 3, 
+      "fmt": "%i",
+      "rightside_up": "True",
+      "use_clabeltext": "True"
+    },
+    "coastline_style": {
+      "resolution": "10m", 
+      "color": "black", 
+      "linewidth": 0.3
+    },
+    "border_style": {
+      "edgecolor": "black", 
+      "linewidth": 0.1
+    },
+    "high_text_style": {
+      "extrema": "max",
+      "nsize": 100, 
+      "symbol": "H", 
+      "color": "b"
+    },
+    "low_text_style": {
+      "extrema": "min",
+      "nsize": 100, 
+      "symbol": "L", 
+      "color": "r"
+    },
+    "annotation": {
+        "text": "Produced by Meteorological Service Singapore",
+        "xy": [-0.5, -0.2], 
+        "xycoords": "axes fraction", 
+        "fontsize": 5
+    },
+    "barb_style": {
+      "length": 4,
+      "pivot": "middle",
+      "barbcolor": "blue",
+      "sizes": {
+        "emptybarb": 0.25, 
+        "spacing": 0.2,
+        "height": 0.5 
+      },
+      "linewidth": 0.8
+    },
+    "subplots_adjust": {
+      "bottom": 0.55, 
+      "top": 0.9, 
+      "left": 0.15,
+      "right": 0.85,
+      "wspace": 0.05,
+      "hspace": 0.3
+    }
+  },
+  "UPPERAIR_ASEAN_WINDS_18": {
+    "product_name": "Radiosonde Upper Air Observation",
+    "data_type": "TEMP_BUFR",
+    "img_format": "png",
+    "output_fname": "lwind18asn_%Y%m%d_%H%M",
+    "gaussian_smooth": false,
+    "gaussian_sigma": 1.5,
+    "dpi": 300,
+    "width_px": 2400,
+    "height_px": 2400,
+    "layout": [2, 4],
+    "margins_x": 0.05,
+    "margins_y": 0.1,
+    "plot_ticks": true,
+    "lon_spacing": 10,
+    "lat_spacing": 10,
+    "ticks_style": {
+      "labelsize": 3
+    },
+    "extent": [[[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]], 
+               [[90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25], [90, 125, -15, 25]]
+    ],
+    "projection": [["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"], 
+                   ["PlateCarree", "PlateCarree", "PlateCarree", "PlateCarree"]
+    ],
+    "variable": [["winds", "winds", "winds", "winds"],
+                 ["winds", "winds", "winds", "winds"]
+    ],
+    "typicalTime": [["180000", "180000", "180000", "180000"],
+                ["180000", "180000", "180000", "180000"]    
+    ],
+    "lvl_val": [[80000, 70000, 60000, 50000],
+                [95000, 92500, 90000, 85000]    
+    ],
+    "label_text": [["7000 ft", "10000 ft", "14000 ft", "19000 ft"],
+                   ["1000 ft", "2000 ft", "3000 ft", "5000 ft"]
+    ],
+    "label_style": {
+      "fontsize": 5,
+      "loc": "center"
+    },
+    "title_style": {
+      "fontsize": 10
+    },
+    "plot_style": [["barb", "barb", "barb", "barb"],
+                   ["barb", "barb", "barb", "barb"]
+    ],
+    "scale_factor": 1.94384, 
+    "mpl_style": {
+      "colors": "black",
+      "vmin": 980,
+      "vmax": 1030,
+      "levels": 26,
+      "linewidths": 0.5
+    },
+    "contour_style": {
+      "fontsize": 3, 
+      "inline": "True", 
+      "inline_spacing": 3, 
+      "fmt": "%i",
+      "rightside_up": "True",
+      "use_clabeltext": "True"
+    },
+    "coastline_style": {
+      "resolution": "10m", 
+      "color": "black", 
+      "linewidth": 0.3
+    },
+    "border_style": {
+      "edgecolor": "black", 
+      "linewidth": 0.1
+    },
+    "high_text_style": {
+      "extrema": "max",
+      "nsize": 100, 
+      "symbol": "H", 
+      "color": "b"
+    },
+    "low_text_style": {
+      "extrema": "min",
+      "nsize": 100, 
+      "symbol": "L", 
+      "color": "r"
+    },
+    "annotation": {
+        "text": "Produced by Meteorological Service Singapore",
+        "xy": [-0.5, -0.2], 
+        "xycoords": "axes fraction", 
+        "fontsize": 5
+    },
+    "barb_style": {
+      "length": 4,
+      "pivot": "middle",
+      "barbcolor": "blue",
+      "sizes": {
+        "emptybarb": 0.25, 
+        "spacing": 0.2,
+        "height": 0.5 
+      },
+      "linewidth": 0.8
+    },
+    "subplots_adjust": {
+      "bottom": 0.55, 
+      "top": 0.9, 
+      "left": 0.15,
+      "right": 0.85,
+      "wspace": 0.05,
+      "hspace": 0.3
+    }
+  },
+  "SYNOP_SHIP_SURFACE_CHART_00": {
+    "product_name": "Surface Chart (00Z)",
+    "data_type": "SYNOP_SHIP",
+    "img_format": "ps",
+    "output_fname": "surfacechart00Z_%Y%m%d_%H%M",
+    "gaussian_smooth": false,
+    "gaussian_sigma": 1.5,
+    "dpi": 300,
+    "width_px": 4800,
+    "height_px": 4800,
+    "layout": [1, 1],
+    "margins_x": 0.05,
+    "margins_y": 0.1,
+    "plot_ticks": true,
+    "lon_spacing": 10,
+    "lat_spacing": 10,
+    "ticks_style": {
+      "labelsize": 5
+    },
+    "extent": [[[0, 180, -60, 60]]
+    ],
+    "projection": [["PlateCarree"]
+    ],
+    "variable": [["synop"]
+    ],
+    "typicalTime": [["000000"]   
+    ],
+    "lvl_val": [[0]    
+    ],
+    "label_text": [[""]
+    ],
+    "label_style": {
+      "fontsize": 5,
+      "loc": "center"
+    },
+    "title_style": {
+      "fontsize": 10
+    },
+    "plot_style": [["station"]
+    ],
+    "scale_factor": 1.94384, 
+    "mpl_style": {
+      "colors": "black",
+      "vmin": 980,
+      "vmax": 1030,
+      "levels": 26,
+      "linewidths": 0.5
+    },
+    "contour_style": {
+      "fontsize": 3, 
+      "inline": "True", 
+      "inline_spacing": 3, 
+      "fmt": "%i",
+      "rightside_up": "True",
+      "use_clabeltext": "True"
+    },
+    "coastline_style": {
+      "resolution": "10m", 
+      "color": "black", 
+      "linewidth": 0.5
+    },
+    "border_style": {
+      "edgecolor": "black", 
+      "linewidth": 0.3,
+      "linestyle": ":"
+    },
+    "high_text_style": {
+      "extrema": "max",
+      "nsize": 100, 
+      "symbol": "H", 
+      "color": "b"
+    },
+    "low_text_style": {
+      "extrema": "min",
+      "nsize": 100, 
+      "symbol": "L", 
+      "color": "r"
+    },
+    "annotation": {
+        "text": "Produced by Meteorological Service Singapore",
+        "xy": [0.85, -0.05], 
+        "xycoords": "axes fraction", 
+        "fontsize": 5
+    },
+    "barb_style": {
+      "length": 4,
+      "pivot": "middle",
+      "barbcolor": "blue",
+      "sizes": {
+        "emptybarb": 0.25, 
+        "spacing": 0.2,
+        "height": 0.5 
+      },
+      "linewidth": 0.8
+    },
+    "subplots_adjust": {
+      "bottom": 0.5, 
+      "top": 0.95, 
+      "left": 0.05,
+      "right": 0.95,
+      "wspace": 0.05,
+      "hspace": 0.05
+    }
+  }
+}
+  
